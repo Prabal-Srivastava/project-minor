@@ -1,0 +1,35 @@
+{
+  "name": "propnews24 - India News Portal",
+  "short_name": "propnews24",
+  "description": "Stay informed with real-time India news across 10 categories",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#dc2626",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["news", "magazines"],
+  "shortcuts": [
+    {
+      "name": "Latest News",
+      "short_name": "News",
+      "description": "View latest news",
+      "url": "/",
+      "icons": [{ "src": "/logo.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Bookmarks",
+      "short_name": "Saved",
+      "description": "View saved articles",
+      "url": "/bookmarks",
+      "icons": [{ "src": "/logo.svg", "sizes": "any" }]
+    }
+  ]
+}
